@@ -1,3 +1,4 @@
+/* color */
 :root {
   --red: #cf240a;  
 }
@@ -6,6 +7,7 @@ body {
 	font-family: Montserrat;
 }
 
+/* re-useable asset */
 .bg-red {
 	background-color: var(--red);
 }
@@ -29,8 +31,7 @@ body {
 }
 
 
-
-
+/* nav */
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
@@ -52,7 +53,7 @@ body {
 }
 
 
-
+/* home page container */
 .home-container {
 	background: linear-gradient(0deg, #FF2D08 -51.64%, rgba(255, 255, 255, 0) 52.27%), #CF240A;
 	width: 100%;
