@@ -54,6 +54,9 @@ body {
 
 
 /* nav */
+.navbar-brand:hover, .navbar-brand:focus {
+	color: white !important;
+}
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
@@ -72,6 +75,14 @@ body {
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
+}
+.navbar-toggler {
+    padding: 0;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
 
 
