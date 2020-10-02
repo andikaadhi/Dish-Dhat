@@ -1,13 +1,13 @@
 
 function hideNearMe() {
 	var wh = window.innerHeight;
-	mt = wh - 64 - 50; 
-	$(".nearme-container").css({"margin-top" : mt});
+	mt = wh - 50; 
+	$(".nearme-container").css({"top" : mt});
 	$(".nearme-container h5").attr("onclick","showNearMe()");
 }
 
 function showNearMe() {
-	$(".nearme-container").css({"margin-top" : 0});
+	$(".nearme-container").css({"top" : 64});
 	$(".nearme-container h5").attr("onclick","hideNearMe()");
 }
 
